@@ -1,0 +1,1 @@
+SELECT id, name FROM public.genre WHERE name LIKE concat('%', /* name */'情', '%')
