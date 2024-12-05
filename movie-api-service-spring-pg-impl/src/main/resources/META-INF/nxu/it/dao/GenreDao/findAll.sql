@@ -1,1 +1,0 @@
-SELECT id, name from public.genre ORDER BY id

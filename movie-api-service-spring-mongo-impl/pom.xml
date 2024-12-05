@@ -8,13 +8,12 @@
         <version>3.0</version>
     </parent>
     <groupId>nxu.it</groupId>
-    <artifactId>movie-api-service-spring-pg-impl</artifactId>
-    <name>movie-api-service-spring-pg-impl</name>
-    <description>movie-api-service-spring-pg-impl</description>
+    <artifactId>movie-api-service-spring-mongo-impl</artifactId>
+    <name>movie-api-service-spring-mongo-impl</name>
+    <description>movie-api-service-spring-mongo-impl</description>
     <packaging>jar</packaging>
     <properties>
         <java.version>17</java.version>
-        <doma.version>3.17</doma.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>

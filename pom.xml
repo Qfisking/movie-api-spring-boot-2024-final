@@ -23,6 +23,9 @@
     <modules>
         <module>movie-api-spring-web</module>
         <module>movie-api-service-spring-pg-impl</module>
+        <module>movie-api-service-spring-mongo-impl</module>
+        <module>movie-api-service-spring-neo4j-impl</module>
+
     </modules>
 
 

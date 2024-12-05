@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/movie-api-service-spring-pg-impl/src/main/resources/META-INF/nxu/it/dao/GenreDao/findAll.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/movie-api-service-spring-pg-impl/src/main/resources/META-INF/nxu/it/dao/GenreDao/findByMovieId.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/movie-api-service-spring-pg-impl/src/main/resources/META-INF/nxu/it/dao/GenreDao/findByName.sql" dialect="PostgreSQL" />
-  </component>
-</project>
