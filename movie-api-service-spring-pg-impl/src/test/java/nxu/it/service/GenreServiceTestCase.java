@@ -2,6 +2,7 @@ package nxu.it.service;
 
 import nxu.it.api.model.Genre;
 import nxu.it.api.service.GenreService;
+import nxu.it.dao.GenreDao;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,8 +20,13 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class GenreServiceTestCase {
     @Autowired
     private GenreService genreService;
-
-
+    @Autowired
+    private GenreDao genreDao;
+    @Test
+    void test_genre_dao_return_map() {
+        var m = genreDao.findGenreById(1);
+        System.out.println(m);
+    }
 
     @Test
     @DisplayName("测试查询全部电影分类")

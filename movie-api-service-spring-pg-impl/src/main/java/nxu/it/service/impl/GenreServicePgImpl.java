@@ -1,4 +1,4 @@
-package nxu.it.impl;
+package nxu.it.service.impl;
 
 import nxu.it.api.model.Genre;
 import nxu.it.api.service.GenreService;

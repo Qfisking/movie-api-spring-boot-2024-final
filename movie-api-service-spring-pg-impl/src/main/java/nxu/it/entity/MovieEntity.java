@@ -1,11 +1,11 @@
 package nxu.it.entity;
 
-import nxu.it.api.model.Cast;
-import nxu.it.api.model.Genre;
 import org.seasar.doma.Entity;
 import org.seasar.doma.Table;
+import org.seasar.doma.Transient;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -39,35 +39,35 @@ public class MovieEntity {
 
     protected String poster;
 
+    @Transient
+    protected List<GenreEntity> genres = new ArrayList();
+    @Transient
+    protected List<CastEntity> directors = new ArrayList<>();
+    @Transient
+    protected List<CastEntity> actors = new ArrayList();
 
-    protected List<Genre> genres;
 
-    protected List<Cast> directors;
-
-    protected List<Cast> actors;
-
-
-    public List<Cast> getDirectors() {
+    public List<CastEntity> getDirectors() {
         return this.directors;
     }
 
-    public void setDirectors(List<Cast> directors) {
+    public void setDirectors(List<CastEntity> directors) {
         this.directors = directors;
     }
 
-    public List<Cast> getActors() {
+    public List<CastEntity> getActors() {
         return this.actors;
     }
 
-    public void setActors(List<Cast> actors) {
+    public void setActors(List<CastEntity> actors) {
         this.actors = actors;
     }
 
-    public List<Genre> getGenres() {
+    public List<GenreEntity> getGenres() {
         return this.genres;
     }
 
-    public void setGenres(List<Genre> genres) {
+    public void setGenres(List<GenreEntity> genres) {
         this.genres = genres;
     }
 
