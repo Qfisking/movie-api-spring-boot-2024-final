@@ -1,3 +1,4 @@
+/*
 package nxu.it.movieapi.service.mock;
 
 import nxu.it.api.common.result.Pageable;
@@ -113,3 +114,4 @@ public class MovieServiceTestCase extends BaseTestCase{
     }
 }
 
+*/

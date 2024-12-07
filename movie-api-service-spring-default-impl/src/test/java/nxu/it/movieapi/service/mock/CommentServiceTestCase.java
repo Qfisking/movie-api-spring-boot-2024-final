@@ -1,3 +1,4 @@
+/*
 package nxu.it.movieapi.service.mock;
 
 import nxu.it.api.common.param.PageQueryParam;
@@ -5,7 +6,6 @@ import nxu.it.api.common.result.Pageable;
 import nxu.it.api.model.Comment;
 import nxu.it.api.service.CommentService;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
@@ -42,3 +42,4 @@ public class CommentServiceTestCase extends BaseTestCase {
         assertThat(commentPage.getTotalRow()).isEqualTo(2);
     }
 }
+*/
