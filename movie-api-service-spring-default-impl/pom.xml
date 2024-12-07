@@ -8,12 +8,13 @@
         <version>3.0</version>
     </parent>
     <groupId>nxu.it</groupId>
-    <artifactId>movie-api-service-spring-mongo-impl</artifactId>
-    <name>movie-api-service-spring-mongo-impl</name>
-    <description>movie-api-service-spring-mongo-impl</description>
+    <artifactId>movie-api-service-spring-default-impl</artifactId>
+    <name>movie-api-service-spring-default-impl</name>
+    <description>movie-api-service-spring-default-impl</description>
     <packaging>jar</packaging>
     <properties>
         <java.version>17</java.version>
+        <doma.version>3.17</doma.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
@@ -33,7 +34,6 @@
             <artifactId>movie-api-service</artifactId>
             <version>3.0-SNAPSHOT</version>
         </dependency>
-
     </dependencies>
 
 
@@ -45,7 +45,7 @@
                 <version>3.8.1</version>
                 <configuration>
                     <annotationProcessorPaths>
-                      
+
                     </annotationProcessorPaths>
                 </configuration>
             </plugin>
