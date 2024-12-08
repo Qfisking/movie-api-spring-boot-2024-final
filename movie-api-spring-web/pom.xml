@@ -35,17 +35,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.github.xiaoymin</groupId>
-			<artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
-			<version>4.4.0</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-
-		<dependency>
-			<groupId>nxu.it</groupId>
-			<artifactId>movie-api-service-spring-pg-impl</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-
 	</dependencies>
 
 	<build>
@@ -53,6 +45,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<layers>
+<!--						<enabled>true</enabled>-->
+					</layers>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
