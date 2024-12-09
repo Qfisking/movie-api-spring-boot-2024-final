@@ -2,7 +2,7 @@ FROM azul/zulu-openjdk-alpine:17-latest AS builder
 WORKDIR /builder
 # This points to the built jar file in the target folder
 # Adjust this to 'build/libs/*.jar' if you're using Gradle
-ARG JAR_FILE=target/*.jar
+ARG JAR_FILE=./target/*.jar
 # Copy the jar file to the working directory and rename it to application.jar
 COPY ${JAR_FILE} application.jar
 # Extract the jar file using an efficient layout
