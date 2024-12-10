@@ -38,6 +38,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>nxu.it</groupId>
+            <artifactId>movie-api-service</artifactId>
+            <version>3.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -49,4 +55,19 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <name>mjl-snapshot</name>
+            <id>movie-api</id>
+            <url>https://ghp.ci/https://raw.githubusercontent.com/ponyjoy/maven/master/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <checksumPolicy>warn</checksumPolicy>
+                <updatePolicy>never</updatePolicy>
+            </snapshots>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </repository>
+    </repositories>
 </project>
