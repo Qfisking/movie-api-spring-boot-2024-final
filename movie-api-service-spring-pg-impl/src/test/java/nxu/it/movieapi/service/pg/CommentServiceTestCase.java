@@ -1,4 +1,4 @@
-package nxu.it.movieapi.service.mock;
+package nxu.it.movieapi.service.pg;
 
 import nxu.it.api.common.param.PageQueryParam;
 import nxu.it.api.common.result.Pageable;
@@ -11,7 +11,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class CommentServiceTestCase extends BaseTestCase{
+public class CommentServiceTestCase {
     @Autowired
     CommentService commentService;
 

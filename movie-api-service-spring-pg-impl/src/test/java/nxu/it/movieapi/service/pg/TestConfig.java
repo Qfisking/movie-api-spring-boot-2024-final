@@ -1,4 +1,4 @@
-package nxu.it.movieapi.service.mock;
+package nxu.it.movieapi.service.pg;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

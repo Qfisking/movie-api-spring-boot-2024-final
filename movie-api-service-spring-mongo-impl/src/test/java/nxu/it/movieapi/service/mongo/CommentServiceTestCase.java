@@ -11,7 +11,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class CommentServiceTestCase extends BaseTestCase{
+public class CommentServiceTestCase {
     @Autowired
     CommentService commentService;
 

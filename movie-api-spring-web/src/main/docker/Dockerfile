@@ -21,4 +21,5 @@ COPY --from=builder /builder/extracted/application/ ./
 # Start the application jar - this is not the uber jar used by the builder
 # This jar only contains application code and references to the extracted jar files
 # This layout is efficient to start up and CDS friendly
+EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "application.jar"]

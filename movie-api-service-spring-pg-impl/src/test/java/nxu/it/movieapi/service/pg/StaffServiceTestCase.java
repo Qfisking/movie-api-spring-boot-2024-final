@@ -1,5 +1,5 @@
 
-package nxu.it.movieapi.service.mock;
+package nxu.it.movieapi.service.pg;
 
 import nxu.it.api.common.result.Pageable;
 import nxu.it.api.model.Filmography;
@@ -16,7 +16,7 @@ import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class StaffServiceTestCase extends BaseTestCase {
+public class StaffServiceTestCase {
     @Autowired
     StaffService staffService;
 

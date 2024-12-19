@@ -16,7 +16,7 @@ import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class StaffServiceTestCase extends BaseTestCase {
+public class StaffServiceTestCase {
     @Autowired
     StaffService staffService;
 

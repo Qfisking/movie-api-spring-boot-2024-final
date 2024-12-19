@@ -1,4 +1,4 @@
-package nxu.it.movieapi.service.mock;
+package nxu.it.movieapi.service.pg;
 
 import nxu.it.api.model.Genre;
 import nxu.it.api.service.GenreService;
@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class GenreServiceTestCase extends BaseTestCase {
+public class GenreServiceTestCase {
     @Autowired
     private GenreService genreService;
 

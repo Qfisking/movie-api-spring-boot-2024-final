@@ -1,5 +1,5 @@
 
-package nxu.it.movieapi.service.mock;
+package nxu.it.movieapi.service.pg;
 
 import nxu.it.api.model.Cast;
 import nxu.it.api.model.CastRole;
@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class MovieCastServiceTestCase extends BaseTestCase {
+public class MovieCastServiceTestCase {
     @Autowired
     MovieCastService movieCastService;
 

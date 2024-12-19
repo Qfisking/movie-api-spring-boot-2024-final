@@ -1,4 +1,4 @@
-package nxu.it.movieapi.service.mock;
+package nxu.it.movieapi.service.pg;
 
 import nxu.it.api.common.result.Pageable;
 import nxu.it.api.model.Cast;
@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class MovieServiceTestCase extends BaseTestCase {
+public class MovieServiceTestCase {
     @Autowired
     MovieService movieService;
 

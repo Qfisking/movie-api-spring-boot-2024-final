@@ -1,4 +1,4 @@
-package nxu.it.movieapi.service.mock;
+package nxu.it.movieapi.service.pg;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
