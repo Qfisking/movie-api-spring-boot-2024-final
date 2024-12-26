@@ -56,7 +56,7 @@
         <repository>
             <name>mjl-snapshot</name>
             <id>movie-api</id>
-            <url>https://ghp.ci/https://raw.githubusercontent.com/ponyjoy/maven/master/</url>
+            <url>https://gh-proxy.com/https://raw.githubusercontent.com/ponyjoy/maven/master/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <checksumPolicy>warn</checksumPolicy>

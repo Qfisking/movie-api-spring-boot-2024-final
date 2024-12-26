@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class MovieServiceTestCase {
+public class MovieServiceTestCase  extends BaseTestCase {
     @Autowired
     MovieService movieService;
 

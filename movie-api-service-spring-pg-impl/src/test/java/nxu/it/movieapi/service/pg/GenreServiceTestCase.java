@@ -9,11 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
-
-public class GenreServiceTestCase {
+public class GenreServiceTestCase extends BaseTestCase {
     @Autowired
     private GenreService genreService;
 

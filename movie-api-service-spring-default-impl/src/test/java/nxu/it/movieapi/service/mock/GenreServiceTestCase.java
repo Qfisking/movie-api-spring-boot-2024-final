@@ -1,4 +1,4 @@
-/*
+
 package nxu.it.movieapi.service.mock;
 
 
@@ -52,4 +52,4 @@ public class GenreServiceTestCase extends BaseTestCase{
     }
 }
 
-*/
+

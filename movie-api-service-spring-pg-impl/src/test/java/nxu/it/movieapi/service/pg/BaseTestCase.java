@@ -1,5 +1,7 @@
 package nxu.it.movieapi.service.pg;
 
+
+import nxu.it.movieapi.service.pg.TestConfig;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;

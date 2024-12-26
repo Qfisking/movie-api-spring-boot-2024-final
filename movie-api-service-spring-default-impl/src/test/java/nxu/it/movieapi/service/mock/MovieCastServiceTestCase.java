@@ -1,6 +1,4 @@
-/*
 package nxu.it.movieapi.service.mock;
-
 
 import nxu.it.api.model.Cast;
 import nxu.it.api.model.CastRole;
@@ -136,4 +134,4 @@ public class MovieCastServiceTestCase extends BaseTestCase{
 
 }
 
-*/
+
