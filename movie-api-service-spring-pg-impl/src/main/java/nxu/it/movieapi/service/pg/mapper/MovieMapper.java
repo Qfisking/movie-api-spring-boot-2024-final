@@ -2,7 +2,6 @@ package nxu.it.movieapi.service.pg.mapper;
 
 import nxu.it.api.model.Movie;
 import nxu.it.api.model.SimpleMovie;
-import nxu.it.movieapi.service.pg.entity.MovieEntity;
 import org.mapstruct.Mapper;
 
 import java.util.List;

@@ -2,8 +2,6 @@ package nxu.it.movieapi.service.pg.mapper;
 
 import nxu.it.api.model.Cast;
 import nxu.it.api.model.Filmography;
-import nxu.it.movieapi.service.pg.entity.CastEntity;
-import nxu.it.movieapi.service.pg.entity.FilmographyEntity;
 import org.mapstruct.Mapper;
 
 import java.util.List;

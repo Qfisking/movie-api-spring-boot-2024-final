@@ -8,7 +8,6 @@ import nxu.it.api.service.MovieCastService;
 import nxu.it.api.service.StaffService;
 import nxu.it.api.service.param.StaffPageQueryParam;
 import nxu.it.movieapi.service.pg.dao.StaffDao;
-import nxu.it.movieapi.service.pg.entity.StaffEntity;
 import nxu.it.movieapi.service.pg.mapper.StaffMapper;
 import org.jetbrains.annotations.NotNull;
 import org.seasar.doma.jdbc.SelectOptions;

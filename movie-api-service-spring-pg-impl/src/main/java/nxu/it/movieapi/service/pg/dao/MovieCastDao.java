@@ -1,8 +1,6 @@
 package nxu.it.movieapi.service.pg.dao;
 
 import nxu.it.api.model.CastRole;
-import nxu.it.movieapi.service.pg.entity.CastEntity;
-import nxu.it.movieapi.service.pg.entity.FilmographyEntity;
 import org.seasar.doma.Dao;
 import org.seasar.doma.Select;
 import org.seasar.doma.boot.ConfigAutowireable;

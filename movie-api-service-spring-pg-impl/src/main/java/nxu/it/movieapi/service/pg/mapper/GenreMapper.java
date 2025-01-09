@@ -1,7 +1,6 @@
 package nxu.it.movieapi.service.pg.mapper;
 
 import nxu.it.api.model.Genre;
-import nxu.it.movieapi.service.pg.entity.GenreEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingConstants;
 

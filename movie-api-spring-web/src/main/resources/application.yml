@@ -10,9 +10,5 @@ knife4j:
   setting:
     language: zh_cn
 
-# Mongo数据库连接配置
-spring:
-  datasource:
-    url: jdbc:postgresql://10.2.3.36:5432/movie_api
-    username: api
-    password: api
+
+

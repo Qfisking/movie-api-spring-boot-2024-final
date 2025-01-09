@@ -7,7 +7,6 @@ import nxu.it.api.service.GenreService;
 import nxu.it.api.service.MovieCastService;
 import nxu.it.api.service.MovieService;
 import nxu.it.api.service.param.MoviePageQueryParam;
-import nxu.it.movieapi.service.pg.entity.MovieEntity;
 import nxu.it.movieapi.service.pg.mapper.MovieMapper;
 import org.jetbrains.annotations.NotNull;
 import org.seasar.doma.jdbc.SelectOptions;

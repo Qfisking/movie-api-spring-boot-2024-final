@@ -1,7 +1,6 @@
 package nxu.it.movieapi.service.pg;
 
 import nxu.it.movieapi.service.pg.dao.GenreDao;
-import nxu.it.movieapi.service.pg.entity.GenreEntity;
 import nxu.it.api.model.Genre;
 import nxu.it.api.service.GenreService;
 import nxu.it.movieapi.service.pg.mapper.GenreMapper;

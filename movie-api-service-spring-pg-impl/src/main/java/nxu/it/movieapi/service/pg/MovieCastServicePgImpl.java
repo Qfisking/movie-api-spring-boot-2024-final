@@ -6,9 +6,7 @@ import nxu.it.api.model.Filmography;
 import nxu.it.api.service.MockResult;
 import nxu.it.api.service.MovieCastService;
 import nxu.it.movieapi.service.pg.dao.MovieCastDao;
-import nxu.it.movieapi.service.pg.entity.FilmographyEntity;
 import nxu.it.movieapi.service.pg.mapper.MovieCastMapper;
-import nxu.it.movieapi.service.pg.entity.CastEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
