@@ -1,6 +1,7 @@
 package nxu.it.movieapi.service.pg.dao;
 
 import nxu.it.api.service.param.StaffPageQueryParam;
+import nxu.it.movieapi.service.pg.entity.ProductEntity;
 import org.seasar.doma.Dao;
 import org.seasar.doma.Select;
 import org.seasar.doma.boot.ConfigAutowireable;
@@ -14,8 +15,8 @@ import java.util.Optional;
 public interface ProductDao {
 
     @Select
-    Optional<ProEntity> findById(Integer staffId);
+    Optional<ProductEntity> findById(Integer staffId);
 
     @Select
-    List<StaffEntity> page(StaffPageQueryParam param,SelectOptions options);
+    List<ProductEntity> page(StaffPageQueryParam param,SelectOptions options);
 }
