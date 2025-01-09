@@ -1,19 +1,20 @@
 package nxu.it.movieapi.service.pg.entity;
 
-import jakarta.persistence.*;
+import org.seasar.doma.Column;
+import org.seasar.doma.Entity;
+import org.seasar.doma.Table;
 
 @Entity
-@Table(name = "t_customer")
-public class TCustomer {
-    @Id
+@Table(name = "t_supplier")
+public class SupplierEntity {
     @Column(name = "id")
     private Long id;
 
     @Column(name = "name")
     private String name;
 
-    @Column(name = "contact")
-    private String contact;
+    @Column(name = "address")
+    private String address;
 
     @Column(name = "province")
     private String province;
@@ -21,11 +22,11 @@ public class TCustomer {
     @Column(name = "city")
     private String city;
 
-    @Column(name = "address")
-    private String address;
-
     @Column(name = "region")
     private String region;
+
+    @Column(name = "contact")
+    private String contact;
 
     @Column(name = "phone")
     private String phone;
@@ -46,12 +47,12 @@ public class TCustomer {
         this.name = name;
     }
 
-    public String getContact() {
-        return this.contact;
+    public String getAddress() {
+        return this.address;
     }
 
-    public void setContact(String contact) {
-        this.contact = contact;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getProvince() {
@@ -70,20 +71,20 @@ public class TCustomer {
         this.city = city;
     }
 
-    public String getAddress() {
-        return this.address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
     public String getRegion() {
         return this.region;
     }
 
     public void setRegion(String region) {
         this.region = region;
+    }
+
+    public String getContact() {
+        return this.contact;
+    }
+
+    public void setContact(String contact) {
+        this.contact = contact;
     }
 
     public String getPhone() {

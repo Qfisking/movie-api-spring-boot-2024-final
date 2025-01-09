@@ -1,11 +1,15 @@
 package nxu.it.movieapi.service.pg.entity;
 
-import jakarta.persistence.*;
+
+import org.seasar.doma.Column;
+import org.seasar.doma.Entity;
+import org.seasar.doma.Table;
+
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "t_employee")
-public class TEmployee {
-    @Id
+public class EmployeeEntity {
     @Column(name = "id")
     private String id;
 

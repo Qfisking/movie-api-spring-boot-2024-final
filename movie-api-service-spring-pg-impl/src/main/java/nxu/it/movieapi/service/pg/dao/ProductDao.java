@@ -11,10 +11,10 @@ import java.util.Optional;
 
 @Dao
 @ConfigAutowireable
-public interface StaffDao {
+public interface ProductDao {
 
     @Select
-    Optional<StaffEntity> findById(Integer staffId);
+    Optional<ProEntity> findById(Integer staffId);
 
     @Select
     List<StaffEntity> page(StaffPageQueryParam param,SelectOptions options);

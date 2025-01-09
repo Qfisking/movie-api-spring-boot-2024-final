@@ -1,11 +1,14 @@
 package nxu.it.movieapi.service.pg.entity;
 
-import jakarta.persistence.*;
+import org.seasar.doma.Column;
+import org.seasar.doma.Entity;
+import org.seasar.doma.Table;
+
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "t_order")
-public class TOrder {
-    @Id
+public class OrderEntity {
     @Column(name = "id")
     private String id;
 
@@ -31,7 +34,7 @@ public class TOrder {
     private String trackingNumber;
 
     @Column(name = "freight")
-    private null freight;
+    private Integer freight;
 
     @Column(name = "contact")
     private String contact;
@@ -115,11 +118,11 @@ public class TOrder {
         this.trackingNumber = trackingNumber;
     }
 
-    public null getFreight() {
+    public Integer getFreight() {
         return this.freight;
     }
 
-    public void setFreight(null freight) {
+    public void setFreight(Integer freight) {
         this.freight = freight;
     }
 

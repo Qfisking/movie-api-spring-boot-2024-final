@@ -7,7 +7,7 @@ import nxu.it.api.service.GenreService;
 import nxu.it.api.service.MovieCastService;
 import nxu.it.api.service.StaffService;
 import nxu.it.api.service.param.StaffPageQueryParam;
-import nxu.it.movieapi.service.pg.dao.StaffDao;
+import nxu.it.movieapi.service.pg.dao.ProductDao;
 import nxu.it.movieapi.service.pg.mapper.StaffMapper;
 import org.jetbrains.annotations.NotNull;
 import org.seasar.doma.jdbc.SelectOptions;
@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 @Component
 public class StaffServicePgImpl implements StaffService {
     @Autowired
-    StaffDao staffDao;
+    ProductDao staffDao;
 
     @Autowired
     GenreService genreService;

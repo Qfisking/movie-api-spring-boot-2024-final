@@ -7,7 +7,7 @@ import org.seasar.doma.Column;
 
 @Entity
 @Table(name = "t_category")
-public class Category {
+public class CategoryEntity {
     @Column(name = "id")
     private String id;
 

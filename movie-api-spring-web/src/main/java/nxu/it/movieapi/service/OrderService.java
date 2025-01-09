@@ -1,4 +1,4 @@
-package nxu.it.movieapi.service.pg;
+package nxu.it.movieapi.service;
 
 public interface OrderService {
 
